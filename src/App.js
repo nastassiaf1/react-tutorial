@@ -1,7 +1,5 @@
-import styles from './styles.module.css';
+import Board from "./Board";
 
-export default function Square() {
-    return (
-      <button className={ styles.square }>X</button>
-    )
+export default function App() {
+    return <Board />
 }
